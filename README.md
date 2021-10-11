@@ -24,10 +24,13 @@ backtracking to previous decision paths if necessary.
 # Analysis of the program
 
 The program uses map structure to store the most frequently required variables in the program i.e. the unique combination of symptoms that lead
-tp a particular diagnosis. As such, increasing the size of the knowledge base would not slow the runtime of the program once the initialization of
+tp a particular diagnosis. 
+
+As such, increasing the size of the knowledge base would not slow the runtime of the program once the initialization of
 data structures is done at the beginning of the program. Appropriate clause-variable list and instantiated variables list could be created in the
-beginning of the program and once done, the runtime of the program would not be dependent on the size of knowledge base. Thus the program could
-also be scaled to include more detail and more diverse set of rules and knowledge base without sacrificing the speed of the program. 
+beginning of the program and once done, the runtime of the program would not be dependent on the size of knowledge base. 
+
+Thus the program could also be scaled to include more detail and more diverse set of rules and knowledge base without inflating its runtime. 
 
 
-Please refer to the PDF document in the Main folder to get detailed description about the implementation of the program.
+## Please refer to the PDF document in the Main folder to get detailed description about the implementation of the program.
